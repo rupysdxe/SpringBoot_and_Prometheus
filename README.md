@@ -12,6 +12,6 @@ docker pull prom/prometheus
 3. Third you need to run Prometheus with config file by running following command.
 
 ```cmd
-docker run -d --name=prometheus -p 9090:9090 -v {location-of-prometheus.yml_file}/prometheus.yml:
+docker run -d --name=prometheus -p 9090:9090 -v {location-of-prometheus.yml_file_directory}/prometheus.yml:
 /etc/prometheus/prometheus.yml prom/prometheus --config.file=/etc/prometheus/prometheus.yml
 ```
