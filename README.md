@@ -4,7 +4,7 @@
 
 1. First you can pull prometheus from Docker Hub by running following command.
 
-```cmd
+```bash
 docker pull prom/prometheus
 ```
 2. Second you need to run Spring Boot Application ( In my case port is 8888
