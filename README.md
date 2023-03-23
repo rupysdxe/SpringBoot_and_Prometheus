@@ -1,6 +1,6 @@
 # SpringBoot_and_Prometheus
 
-###Connecting Spring Boot Application with Prometheus
+### Connecting Spring Boot Application with Prometheus
 
 1. First you can pull prometheus from Docker Hub by running following command.
 
